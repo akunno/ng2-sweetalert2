@@ -4,11 +4,11 @@
   "description": "A service wrapping sweetalert2 for angular2.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "babel src/index.js -o index.js --presets es2015"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seiyria/ng2-sweetalert2.git"
+    "url": "git+https://github.com/akunno/ng2-sweetalert2.git"
   },
   "keywords": [
     "ng2",
@@ -24,15 +24,12 @@
   "author": "Kyle Kemp <kyle@seiyria.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/seiyria/ng2-sweetalert2/issues"
+    "url": "https://github.com/akunno/ng2-sweetalert2/issues"
   },
-  "scripts": {
-    "compile": "babel src/index.js -o index.js --presets es2015"
-  },
-  "homepage": "https://github.com/seiyria/ng2-sweetalert2#readme",
+  "homepage": "https://github.com/akunno/ng2-sweetalert2#readme",
   "dependencies": {
     "lodash.assign": "^4.0.8",
-    "sweetalert2": "^5.2.0"
+    "sweetalert2": "git+https://github.com/akunno/sweetalert2.git"
   },
   "peerDependencies": {
     "@angular/platform-browser": "^4.2.5"
